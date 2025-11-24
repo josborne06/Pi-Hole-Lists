@@ -1,21 +1,136 @@
-# Microsoft services
+#############################################
+# Pi-hole Allowlist (Josh Osborne Home Network)
+# Optimized for:
+# - Microsoft 365 (Outlook, Teams, OneDrive, SharePoint)
+# - Apple (iPhone, iCloud, iMessage, App Store)
+# - Google (YouTube, Chrome, Android)
+# - Gaming (Fortnite, Siege, Xbox, PlayStation, Nintendo)
+# - GitHub + Dev Tools
+# - Streaming (Netflix, Hulu)
+#############################################
+
+#############################################
+# Microsoft Core Identity / Auth
+#############################################
+login.microsoftonline.com
+login.microsoft.com
+login.windows.net
+graph.microsoft.com
+graph.windows.net
+secure.aadcdn.microsoftonline-p.com
+
+#############################################
+# Microsoft Office / Outlook / SharePoint / Teams
+#############################################
 outlook.office365.com
 products.office.com
+office.com
+office.net
+office365.com
+cdn.office.net
+config.office.com
+autodiscover.outlook.com
+autodiscover-s.outlook.com
+teams.microsoft.com
+statics.teams.cdn.office.net
+statics.teams.microsoft.com
 c.s-microsoft.com
 i.s-microsoft.com
-*.microsoft.com
-*.office.com
 
-# Google services
-accounts.google.com
-clients2.google.com
-clients4.google.com
+#############################################
+# Microsoft Presence / Background Services
+#############################################
+substrate.office.com
+loki.delve.office.com
+identity.microsoft.com
 
-# Apple services
+#############################################
+# Apple Services (iPhone, iCloud, iMessage, App Store)
+#############################################
 appleid.apple.com
 token.safebrowsing.apple
+init.push.apple.com
+gateway.push.apple.com
+gsa.apple.com
+static.icloud.com
+weather-data.apple.com
+apple.com.edgesuite.net
+p16-buy.itunes.apple.com
+p17-buy.itunes.apple.com
+p18-buy.itunes.apple.com
 
-# Other services
+#############################################
+# Google Services (YouTube, Chrome, Gmail)
+#############################################
+accounts.google.com
+clients1.google.com
+clients2.google.com
+clients3.google.com
+clients4.google.com
+googleapis.com
+mtalk.google.com
+update.googleapis.com
+
+#############################################
+# GitHub / Developer Tools
+#############################################
+github.com
+api.github.com
+raw.githubusercontent.com
+objects.githubusercontent.com
+
+#############################################
+# Epic Games / Fortnite
+#############################################
+epicgames.com
+api.epicgames.dev
+launcher.epicgames.com
+store.epicgames.com
+oauth.epicgames.com
+
+#############################################
+# Ubisoft / Rainbow Six Siege
+#############################################
+public-ubiservices.ubi.com
+uplaypc-s-ubisoft.cdn.ubi.com
+
+#############################################
+# Streaming (Netflix, YouTube, Hulu)
+#############################################
+netflix.com
+nflxvideo.net
+nflximg.net
+youtube.com
+ytimg.com
+googlevideo.com
+hulu.com
+
+#############################################
+# Gaming Consoles
+#############################################
+# Xbox
+xboxlive.com
+xboxservices.com
+
+# PlayStation
+playstation.com
+api.playstation.com
+
+# Nintendo
+nintendo.net
+
+#############################################
+# Social / Chat
+#############################################
+discord.com
+discord.gg
+discordapp.com
+discord.media
+
+#############################################
+# Misc Services
+#############################################
 gravatar.com
 s.shopify.com
-api.github.com
+cp.cloudflare.com
+
