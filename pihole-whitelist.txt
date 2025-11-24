@@ -3,6 +3,8 @@ outlook.office365.com
 products.office.com
 c.s-microsoft.com
 i.s-microsoft.com
+*.microsoft.com
+*.office.com
 
 # Google services
 accounts.google.com
